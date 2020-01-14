@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1de4aafe-e48e-404d-98a9-539c97622631" name="Default Changelist" comment="edited text">
-      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/Common/PrefAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/DatabaseConnection/DataConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/CommandDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/CommandDAOIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/IngredientPlatDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/IngredientPlatDAOIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/Views/MainIHM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/Views/PlatIHM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+    <list default="true" id="1de4aafe-e48e-404d-98a9-539c97622631" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam_part1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam_part1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/META-INF/Exam_part1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/exam_part1/Exam_Part1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/Supplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/Supplement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/SupplementDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/SupplementDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/SupplementDAOIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/SupplementDAOIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/IngredientPlat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/IngredientPlat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hba/examen/part1/GestionPlat/PlatPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionPlat/PlatPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/Supplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/Supplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/SupplementDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/SupplementDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/SupplementDAOIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/SupplementDAOIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionCommand/IngredientPlat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionCommand/IngredientPlat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionPlat/PlatPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionPlat/PlatPrincipal.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +136,7 @@
       <workItem from="1578955091782" duration="634000" />
       <workItem from="1578955801590" duration="639000" />
       <workItem from="1578956483996" duration="1617000" />
-      <workItem from="1578990928318" duration="15704000" />
+      <workItem from="1578990928318" duration="15952000" />
     </task>
     <task id="LOCAL-00001" summary="Added Hello.txt">
       <created>1578956263232</created>
@@ -170,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578959513660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added IHM">
+      <created>1579030893826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579030893827</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,17 +168,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Hello.txt" />
     <MESSAGE value="edited text" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited text" />
+    <MESSAGE value="Added IHM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added IHM" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1579004129081">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="574" y="158" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1579004129081" />
-    <state x="393" y="41" key="CommitChangelistDialog2" timestamp="1578959636915">
+    <state x="393" y="41" key="CommitChangelistDialog2" timestamp="1579030891242">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="393" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1578959636915" />
+    <state x="393" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1579030891242" />
     <state x="549" y="203" key="FileChooserDialogImpl" timestamp="1579001585480">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -214,10 +204,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="249" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1579001587442" />
-    <state x="361" y="181" key="Vcs.Push.Dialog.v2" timestamp="1578959526369">
+    <state x="361" y="181" key="Vcs.Push.Dialog.v2" timestamp="1579030902079">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="181" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1578959526369" />
+    <state x="361" y="181" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1579030902079" />
     <state x="578" y="365" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578959720020">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
