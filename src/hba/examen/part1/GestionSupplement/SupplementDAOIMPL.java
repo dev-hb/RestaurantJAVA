@@ -1,17 +1,21 @@
 package hba.examen.part1.GestionSupplement;
 
 import hba.examen.part1.Data;
-import hba.examen.part1.GestionIngredient.Ingredient;
+import hba.examen.part1.DatabaseConnection.DataConnection;
 
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class SupplementDAOIMPL implements SupplementDAO {
+    private DataConnection dc;
+    PreparedStatement pstm;
     Map<String, Supplement> supplements;
 
     public SupplementDAOIMPL(){
+        dc = DataConnection.getConnection();
         supplements = Data.getInstance().getDataSupplements();
     }
 
@@ -27,5 +31,22 @@ public class SupplementDAOIMPL implements SupplementDAO {
             list.add(supplement);
         });
         return list;
+    }
+
+    @Override
+    public void insert(List<Supplement> supplements) {
+        supplements.forEach(supplement -> {
+            try {
+                String query = "INSERT INTO supplement (nom, qte, prix, id_cmd) VALUES(?,?,?,?)";
+                pstm = dc.conn.prepareStatement(query);
+                pstm.setString(1, supplement.getNom());
+                pstm.setInt(2, supplement.getQuantity());
+                pstm.setDouble(3, supplement.getPrix());
+                pstm.setLong(4, supplement.getCommand().getId());
+                pstm.executeUpdate();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        });
     }
 }

@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1de4aafe-e48e-404d-98a9-539c97622631" name="Default Changelist" comment="">
+    <list default="true" id="1de4aafe-e48e-404d-98a9-539c97622631" name="Default Changelist" comment="edited text">
+      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/Common/PrefAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/DatabaseConnection/DataConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/CommandDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/CommandDAOIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/IngredientPlatDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/IngredientPlatDAOIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/Views/MainIHM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hba/examen/part1/Views/PlatIHM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_part1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam_part1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/META-INF/Exam_part1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/exam_part1/Exam_Part1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/Supplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/Supplement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/SupplementDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/SupplementDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/SupplementDAOIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionSupplement/SupplementDAOIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/IngredientPlat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionCommand/IngredientPlat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hba/examen/part1/GestionPlat/PlatPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionPlat/PlatPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/Supplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/Supplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/SupplementDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/SupplementDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/SupplementDAOIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hba/examen/part1/GestionSupplement/SupplementDAOIMPL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -34,19 +54,51 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysql-connector-java-8.0.18.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ok\Desktop\RestaurantJAVA\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PlatIHM">
     <configuration name="Exam_Part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exam_part1.Exam_Part1" />
       <module name="Exam_part1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exam_part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainIHM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hba.examen.part1.Views.MainIHM" />
+      <module name="Exam_part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hba.examen.part1.Views.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatIHM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hba.examen.part1.Views.PlatIHM" />
+      <module name="Exam_part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hba.examen.part1.Views.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,6 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlatIHM" />
+        <item itemvalue="Application.MainIHM" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Exam_Part1" />
       </list>
@@ -99,7 +153,8 @@
       <workItem from="1578903151295" duration="12731000" />
       <workItem from="1578955091782" duration="634000" />
       <workItem from="1578955801590" duration="639000" />
-      <workItem from="1578956483996" duration="1244000" />
+      <workItem from="1578956483996" duration="1617000" />
+      <workItem from="1578990928318" duration="15704000" />
     </task>
     <task id="LOCAL-00001" summary="Added Hello.txt">
       <created>1578956263232</created>
@@ -108,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578956263232</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="edited text">
+      <created>1578959513660</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578959513660</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,44 +178,53 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Hello.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Hello.txt" />
+    <MESSAGE value="edited text" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited text" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1578912035007">
+    <state x="574" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1579004129081">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="574" y="158" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1578912035007" />
-    <state x="393" y="41" key="CommitChangelistDialog2" timestamp="1578956262167">
+    <state x="574" y="158" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1579004129081" />
+    <state x="393" y="41" key="CommitChangelistDialog2" timestamp="1578959636915">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="393" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1578956262167" />
-    <state width="1493" height="197" key="GridCell.Tab.0.bottom" timestamp="1578950148478">
+    <state x="393" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1578959636915" />
+    <state x="549" y="203" key="FileChooserDialogImpl" timestamp="1579001585480">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1578950148478" />
-    <state width="1493" height="197" key="GridCell.Tab.0.center" timestamp="1578950148478">
+    <state x="549" y="203" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1579001585480" />
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom" timestamp="1579030550032">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1578950148478" />
-    <state width="1493" height="197" key="GridCell.Tab.0.left" timestamp="1578950148478">
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1579030550032" />
+    <state width="1493" height="158" key="GridCell.Tab.0.center" timestamp="1579030550032">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1578950148478" />
-    <state width="1493" height="197" key="GridCell.Tab.0.right" timestamp="1578950148478">
+    <state width="1493" height="158" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1579030550032" />
+    <state width="1493" height="158" key="GridCell.Tab.0.left" timestamp="1579030550032">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1578950148478" />
-    <state x="249" y="30" key="SettingsEditor" timestamp="1578959461991">
+    <state width="1493" height="158" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1579030550032" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right" timestamp="1579030550032">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="249" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1578959461991" />
-    <state x="361" y="181" key="Vcs.Push.Dialog.v2" timestamp="1578956285328">
+    <state width="1493" height="158" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1579030550032" />
+    <state x="249" y="30" key="SettingsEditor" timestamp="1579001587442">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="181" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1578956285328" />
-    <state x="578" y="365" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578959478238">
+    <state x="249" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1579001587442" />
+    <state x="361" y="181" key="Vcs.Push.Dialog.v2" timestamp="1578959526369">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="578" y="365" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1578959478238" />
+    <state x="361" y="181" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1578959526369" />
+    <state x="578" y="365" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578959720020">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="578" y="365" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1578959720020" />
+    <state x="487" y="240" key="git4idea.merge.GitPullDialog" timestamp="1578959781735">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="487" y="240" key="git4idea.merge.GitPullDialog/0.30.1536.834@0.30.1536.834" timestamp="1578959781735" />
   </component>
 </project>

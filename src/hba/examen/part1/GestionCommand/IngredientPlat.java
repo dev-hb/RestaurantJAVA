@@ -7,11 +7,31 @@ public class IngredientPlat {
     private int quantite;
     private Ingredient ingredient;
     private PlatPrincipal platPrincipal;
+    private String ingname;
+    private Double ingprix;
 
     public IngredientPlat(int quantite, Ingredient ingredient, PlatPrincipal platPrincipal) {
         this.quantite = quantite;
         this.ingredient = ingredient;
         this.platPrincipal = platPrincipal;
+        this.setIngname(ingredient.getNom());
+        this.setIngprix(ingredient.getPrixUnitaire());
+    }
+
+    public String getIngname() {
+        return ingname;
+    }
+
+    public void setIngname(String ingname) {
+        this.ingname = ingname;
+    }
+
+    public Double getIngprix() {
+        return ingprix;
+    }
+
+    public void setIngprix(Double ingprix) {
+        this.ingprix = ingprix;
     }
 
     public int getQuantite() {
@@ -28,6 +48,8 @@ public class IngredientPlat {
 
     public void setIngredient(Ingredient ingredient) {
         this.ingredient = ingredient;
+        this.setIngname(ingredient.getNom());
+        this.setIngprix(ingredient.getPrixUnitaire());
     }
 
     public PlatPrincipal getPlatPrincipal() {

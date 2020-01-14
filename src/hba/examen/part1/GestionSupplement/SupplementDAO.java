@@ -7,4 +7,5 @@ public interface SupplementDAO {
     public Supplement getOne(String code);
     public List<Supplement> getAll();
 
+    public void insert(List<Supplement> supplement);
 }

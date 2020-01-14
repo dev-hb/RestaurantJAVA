@@ -1,6 +1,7 @@
 package hba.examen.part1.GestionPlat;
 
 import hba.examen.part1.Calcul;
+import hba.examen.part1.GestionCommand.Command;
 import hba.examen.part1.GestionCommand.IngredientPlat;
 
 import java.util.List;
@@ -10,11 +11,20 @@ public class PlatPrincipal implements Calcul {
     private String nom;
     private double total;
     private List<IngredientPlat> ingredientPlats;
+    private Command command;
 
     public PlatPrincipal(String code, String nom) {
         this.code = code;
         this.nom = nom;
         this.total = 0;
+    }
+
+    public Command getCommand() {
+        return command;
+    }
+
+    public void setCommand(Command command) {
+        this.command = command;
     }
 
     public String getCode() {
