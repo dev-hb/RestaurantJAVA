@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1de4aafe-e48e-404d-98a9-539c97622631" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionCommand/IngredientPlat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionCommand/IngredientPlat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionPlat/PlatPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam_part1/hba/examen/part1/GestionPlat/PlatPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,7 @@
       <workItem from="1578955091782" duration="634000" />
       <workItem from="1578955801590" duration="639000" />
       <workItem from="1578956483996" duration="1617000" />
-      <workItem from="1578990928318" duration="15952000" />
+      <workItem from="1578990928318" duration="16612000" />
     </task>
     <task id="LOCAL-00001" summary="Added Hello.txt">
       <created>1578956263232</created>
